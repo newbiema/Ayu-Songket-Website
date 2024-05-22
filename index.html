@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayu Songket Tetebatu</title>
+    <link rel="icon" href="/img/logo2.png">
+    <link rel="stylesheet" href="/src/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-300">
+<!-- HEADER -->
+<nav class="sticky top-0 z-50 bg-white shadow-md">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" id="home">
+      <a href="#about" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="/img/logo2.png" class="ml-5 h-10" alt="Logo Ayu Songket" />
+          <span class="font-bungee text-center text-stone-700">AYU SONGKET</span>
+      </a>
+      <button id="menu-toggle" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-white rounded-lg bg-white md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+              <li><a href="#about" class="block py-2 px-3 text-white font bg-black rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a></li>
+              <li><a href="#services" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Services</a></li>
+              <li><a href="#product" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Product</a></li>
+              <li><a href="#contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a></li>
+          </ul>
+      </div>
+  </div>
+</nav>
+<!-- END HEADER -->
+
+<section id="about" class="mt-20 animate__animated animate__fadeInUp duration_750">
+  <div class="flex justify-center items-center mx-auto max-w-4xl">
+    <div class="relative flex w-full max-w-md flex-col rounded-xl ml-4 mr-4 bg-white text-gray-700 shadow-md">
+      <div class="relative h-64 overflow-hidden rounded-t-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg bg-gradient-to-r from-blue-500 to-blue-600">
+        <img src="/img/ayu.jpg" alt="" class="absolute inset-0    w-full h-full object-cover">
+      </div>
+      <div class="p-6">
+        <h5 class="mb-2 block text-center text-2xl font-Poppins text-gray-400 font-bold sm:text-3xl leading-snug tracking-normal">
+          Ayu Songket
+        </h5>
+        <p class="block font-Poppins text-base font-light leading-relaxed text-inherit">
+          Welcome to Ayu Songket, a place where traditional beauty and craftsmanship meet in a mesmerizing masterpiece. At Ayu Songket, we revive the charm of culture through elegant and sophisticated songket collections.
+        </p>
+      </div>
+      <div class="p-6 pt-0">
+        <button data-ripple-light="true" type="button" class="select-none rounded-lg bg-blue-500 py-3 px-6 text-center text-xs font-Poppins uppercase text-white shadow-md hover:shadow-lg hover:bg-white hover:text-black focus:opacity-85 active:opacity-85">
+          <a href="https://wa.me/6287861983713?text=hello admin👋">Chat Admin</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- HISTORY -->
+  <section id="history" class="mt-16">
+    <div class="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
+        <div class="relative z-10 lg:py-16">
+          <div class="relative h-64 sm:h-80 lg:h-full">
+            <img src="/img/produk/sejarah.jpg" alt="" class="rounded absolute inset-0 h-full w-full object-cover">
+          </div>
+        </div>
+        <div class="relative flex items-center bg-gray-100 opacity-0 animate__animated duration-1000 animate__fadeInUp" id="historyContent">
+          <span class="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
+          <div class="p-8 sm:p-16 lg:p-24">
+            <h2 class="text-2xl font-Poppins font-bold sm:text-3xl">The Story of Ayu Songket's Journeys</h2>
+            <p class="mt-4 font-Poppins text-gray-600">In the remote village of Tetebatu Utara, a winding journey through rice fields and green hills, lies a priceless legacy of local culture: Ayu Songket.</p>
+            <a href="/dist/story.html"  target="_blank" class="mt-8 inline-block rounded border border-black bg-black px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+        
+<!-- Services -->
+<div class="grid place-content-center rounded bg-gray-100 p-6 sm:p-8" id="services">
+  <div class="mx-auto max-w-md text-center lg:text-left">
+    <header>
+      <h2 class="text-2xl font-Poppins font-bold sm:text-3xl">Services</h2>
+      <p class="mt-4 font-Poppins text-gray-500">
+        At Ayu Songket, you will be taught directly by Inaq Ayu in making songket cloth. In addition, you can try on traditional Sasak clothing and take unforgettable photos. It's an unforgettable experience amidst the beauty of Tetebatu Selatan village.
+      </p>
+    </header>
+    <a href="https://wa.me/6287861983713?text=hello admin I want to visit Ayu Songket" class="mt-8 inline-block rounded border border-black bg-black px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring">
+      Visit
+    </a>
+  </div>
+</div>
+
+<!-- Gallery -->
+<div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8 lg:items-stretch mt-8">
+  <!-- Gallery Item 1 -->
+  <div class="relative group cursor-pointer overflow-hidden duration-500 w-full h-80 bg-gray-300 text-white p-5">
+    <div>
+      <div class="group-hover:scale-110 w-full h-60 duration-500">
+        <img src="/img/galeri/3.jpg" alt="" class="object-cover rounded-full w-full h-full">
+      </div>
+      <div class="absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
+        <div class="absolute rounded ml-2  -z-10 left-0 w-64 h-28 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900"></div>
+        <span class="text-lg font-semibold text-center font-Poppins ml-1">Learn to make </span>
+        <span class="text-lg font-semibold text-center font-Poppins ml-1">songket cloth</span>
+        <p class="group-hover:opacity-100 ml-2 font-serif w-56 duration-500 opacity-0">You will be taught how to make songket</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Item 2 -->
+  <div class="relative group cursor-pointer overflow-hidden duration-500 w-full h-80 bg-gray-300 text-white p-5">
+    <div>
+      <div class="group-hover:scale-110 w-full h-60 duration-500">
+        <img src="/img/Coba Baju.jpg" alt="" class="object-cover rounded-full w-full h-full">
+      </div>
+      <div class="absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
+        <div class="absolute rounded ml-2 justify-center items-center -z-10 left-0 w-64 h-28 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900"></div>
+        <span class="text-lg text-center font-bold font-Poppins ml-1">Trying on <br>
+        </span>
+        <span class="text-lg text-center font-bold font-Poppins ml-1">Sasak clothes</span>
+        <p class="group-hover:opacity-100 w-56 ml-2 duration-500 opacity-0">You can try on traditional Sasak clothing, and also take pictures.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Item 3 -->
+  <div class="relative group cursor-pointer overflow-hidden duration-500 w-full h-80 bg-gray-300 text-white p-5">
+    <div>
+      <div class="group-hover:scale-110 w-full h-60 duration-500">
+        <img src="/img/air terjun.heic" alt="" class="object-cover rounded-full w-full h-full">
+      </div>
+      <div class="absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
+        <div class="absolute rounded ml-2  -z-10 left-0 w-64 h-28 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900"></div>
+        <span class="text-lg text-center ml-1 font-semibold font-Poppins">Visit to the</span>
+        <span class="text-lg text-center ml-1 font-semibold font-Poppins">waterfall</span>
+        <p class="group-hover:opacity-100 w-56 duration-500 opacity-0 ml-1">You can see the beauty of the waterfall</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Item 4 -->
+  <div class="relative group cursor-pointer overflow-hidden duration-500 mb-3 w-full h-80 bg-gray-300 text-white p-5">
+    <div>
+      <div class="group-hover:scale-110 w-full h-60 duration-500">
+        <img src="/img/Desa-Wisata-Tetebatu.jpg" alt="" class="object-cover rounded-full w-full h-full">
+      </div>
+      <div class="absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
+        <div class="absolute rounded ml-2 mb-2 -z-10 left-0 w-64 h-28 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900"></div>
+        <span class="text-lg text-center ml-1 font-semibold font-Poppins">Seeing the beauty </span>
+        <span class="text-lg text-center ml-1 font-semibold font-Poppins">of nature</span>
+        <p class="group-hover:opacity-100 w-56 duration-500 opacity-0 ml-1">You can see beautiful rice fields and trees surrounding you.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+<!-- GALERI KAMI -->
+<section class="bg-gray-50"  id="product">
+  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+      <div class="mx-auto max-w-lg text-center">
+          <h2 class="text-2xl font-bold font-Poppins md:text-3xl" id="gallery">
+              Our Gallery
+          </h2>
+          <p class="text-gray-500 font-Poppins sm:mt-4 sm:block">
+              Explore Our Exclusive Collection
+          </p>
+      </div>
+  </div>
+</section>
+<div class="relative w-full " data-carousel="slide">
+  <!-- Carousel wrapper -->
+  <div class="relative ml-4 mr-4 mt-4 h-56 overflow-hidden rounded-lg md:h-96">
+      <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/img/galeri/1.jpg" class="absolute block w-full h-auto object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Gallery Image 1">
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+          <img src="/img/galeri/2.jpg" class="absolute block w-full h-auto object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Gallery Image 2">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/img/galeri/3.jpg" class="absolute block w-full h-auto object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Gallery Image 3">
+      </div>
+      <!-- Item 4 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/img/galeri/4.jpg" class="absolute block w-full h-auto object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Gallery Image 4">
+      </div>
+      <!-- Item 5 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/img/galeri/5.jpg" class="absolute block w-full h-auto object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Gallery Image 5">
+      </div>
+      <!-- Item 6 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/img/galeri/6.jpg" class="absolute block w-full h-auto object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Gallery Image 6">
+      </div>
+      <!-- Item 7 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="/img/galeri/7.jpg" class="absolute block w-full h-auto object-cover top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Gallery Image 7">
+      </div>
+  </div>
+  <!-- Slider controls -->
+  <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 focus:ring-4 focus:ring-white focus:outline-none">
+          <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+      </span>
+  </button>
+  <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 focus:ring-4 focus:ring-white focus:outline-none">
+          <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="sr-only">Next</span>
+      </span>
+  </button>
+</div>
+<!-- END GALERI KAMI -->
+
+<!-- Product Cards -->
+<div class="mt-4 container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-xl mx-auto py-4 px-4">
+  <div class="w-full bg-white p-3 flex flex-col gap-1 rounded-2xl shadow-md">
+      <div class="h-48 bg-gray-700 rounded-xl mb-4 overflow-hidden">
+          <img src="/img/produk/1.jpg" alt="Product 2" class="w-full h-full object-cover">
+      </div>
+      <div class="flex flex-col text-black gap-4">
+          <div class="flex flex-row justify-between items-center">
+              <div class="flex flex-col">
+                  <span class="text-l font-Poppins font-bold">Kain Songket</span>
+                  <p class="text-l text-gray-700">ID: 11</p>
+              </div>
+              <span class="font-bold text-red-600">$21,91</span>
+          </div>
+          <button class="inline-block font-mono rounded-lg bg-black px-5 py-3 font-medium text-white hover:bg-gray-800"><a href="/dist/form.html" target="_blank">Order</a></button>
+      </div>
+  </div>
+
+  <div class="w-full bg-white p-3 flex flex-col gap-1 text-black text- rounded-2xl shadow-md">
+    <div class="h-48 bg-gray-700 rounded-xl mb-4 overflow-hidden">
+        <img src="/img/produk/2.jpg" alt="Product 2" class="w-full h-full object-cover">
+    </div>
+    <div class="flex flex-col gap-4">
+        <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-col">
+                <span class="text-xl font-bold">Kain Songket</span>
+                <p class="text-l text-gray-700">ID: 12</p>
+            </div>
+            <span class="font-bold text-red-600">$21,91</span>
+        </div>
+        <button class="inline-block font-mono rounded-lg bg-black px-5 py-3 font-medium text-white hover:bg-gray-800"><a href="/dist/form.html" target="_blank">Order</a></button>
+    </div>
+</div>
+
+  <div class="w-full bg-white p-3 flex flex-col text-black gap-1 rounded-2xl shadow-md">
+    <div class="h-48 bg-gray-700 rounded-xl mb-4 overflow-hidden">
+        <img src="/img/produk/3.jpg" alt="Product 2" class="w-full h-full object-cover">
+    </div>
+    <div class="flex flex-col gap-4">
+        <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-col">
+                <span class="text-xl font-bold">Kain Songket</span>
+                <p class="text-l text-gray-700">ID: 13</p>
+            </div>
+            <span class="font-bold text-red-600">$21,91</span>
+        </div>
+        <button class="inline-block font-mono rounded-lg bg-black px-5 py-3 font-medium text-white hover:bg-gray-800"><a href="/dist/form.html" target="_blank">Order</a></button>
+    </div>
+</div>
+
+  <div class="w-full bg-white p-3 flex flex-col text-black gap-1 rounded-2xl shadow-md">
+    <div class="h-48 bg-gray-700 rounded-xl mb-4 overflow-hidden">
+        <img src="/img/produk/4.jpg" alt="Product 2" class="w-full h-full object-cover">
+    </div>
+    <div class="flex flex-col gap-4">
+        <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-col">
+                <span class="text-xl font-bold">Kain Songket</span>
+                <p class="text-l text-gray-700">ID: 14</p>
+            </div>
+            <span class="font-bold text-red-600">$21,91</span>
+        </div>
+        <button class="inline-block font-mono rounded-lg bg-black px-5 py-3 font-medium text-white hover:bg-gray-800"><a href="/dist/form.html" target="_blank">Order</a></button>
+    </div>
+</div>
+
+<div class="w-full bg-white p-3 flex flex-col gap-1 text-black rounded-2xl shadow-md">
+  <div class="h-48 bg-gray-700 rounded-xl mb-4 overflow-hidden">
+      <img src="/img/produk/5.jpg" alt="Product 2" class="w-full h-full object-cover">
+  </div>
+  <div class="flex flex-col gap-4">
+      <div class="flex flex-row justify-between items-center">
+          <div class="flex flex-col">
+              <span class="text-xl font-bold">Kain Songket</span>
+              <p class="text-l text-gray-700">ID: 15</p>
+          </div>
+          <span class="font-bold text-red-600">$21,91</span>
+      </div>
+      <button class="inline-block font-mono rounded-lg bg-black px-5 py-3 font-medium text-white hover:bg-gray-800"><a href="/dist/form.html" target="_blank">Order</a></button>
+  </div>
+</div>
+
+<div class="w-full bg-white p-3 flex flex-col text-black gap-1 rounded-2xl shadow-md">
+  <div class="h-48 bg-gray-700 rounded-xl mb-4 overflow-hidden">
+      <img src="/img/produk/6.jpg" alt="Product 2" class="w-full h-full object-cover">
+  </div>
+  <div class="flex flex-col gap-4">
+      <div class="flex flex-row justify-between items-center">
+          <div class="flex flex-col">
+              <span class="text-xl font-bold">Kain Songket</span>
+              <p class="text-l text-gray-700">ID: 16</p>
+          </div>
+          <span class="font-bold text-red-600">$21,91</span>
+      </div>
+     <button class="inline-block font-mono rounded-lg bg-black px-5 py-3 font-medium text-white hover:bg-gray-800"><a href="/dist/form.html" target="_blank">Order</a></button>
+
+  </div>
+</div>
+</div>
+
+</div>
+
+
+  <!-- Additional product cards can be added here -->
+
+<!-- FOOTER -->
+
+<footer class=" bg-white" id="contact">
+    <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+      <p class="mx-auto mt-6 max-w-md mb-10 font-bold text-center leading-relaxed text-black">
+        CONTACT US
+      </p>
+      <div class="flex justify-center font-bold mb-4 text-teal-600">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4649.317547956722!2d116.41969749075373!3d-8.547061654396222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc354a2deed911%3A0x227fdd93329c53ae!2sAir%20Terjun%20Sarang%20Walet!5e0!3m2!1sid!2sid!4v1715012449057!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-box"></iframe>
+      </div>
+  
+      <ul class="mt-12 flex justify-center gap-6 md:gap-10">
+        <li>
+          <a
+            href="#"
+            rel="noreferrer"
+            target="_blank"
+            class="text-gray-700 transition hover:text-gray-700/75"
+          >
+            <span class="sr-only">Facebook</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.instagram.com/ayu_songket/"
+            rel="noreferrer"
+            target="_blank"
+            class="text-gray-700 transition hover:text-gray-700/75"
+          >
+            <span class="sr-only">Instagram</span>
+            <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="" height="25" viewBox="0 0 50 50">
+              <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+              </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-Poppins mb-2 text-center text-xs" >&copy; 2024 || Ayu Songket</p>
+  </div>
+  </footer>
+
+  
+
+<!-- END FOOTER -->
+
+<script src="/dist/main.js"></script>
+<script src="/dist/animasi.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+<script src="/dist/nav.js"></script>
+
+    
+    
+</body>
+</html>
