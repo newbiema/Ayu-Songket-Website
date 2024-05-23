@@ -22,4 +22,20 @@ document.addEventListener("DOMContentLoaded", function() {
     // Memanggil fungsi animasi saat pengguna menggulir halaman
     window.addEventListener("scroll", animateOnScroll);
   });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.remove('opacity-0');
+          entry.target.classList.add('animate-fadeInUp');
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    const target = document.getElementById('historyContent');
+    observer.observe(target);
+  });
   
